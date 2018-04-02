@@ -8,7 +8,8 @@ void renderScene()
 {
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();	
-	gluPerspective(45.0f, 1.0f, 0.1f, 100.0f);
+	gluPerspective(30.0f, 1.0f, 0.1f, 100.0f);
+	//gluPerspective(45.0f, 1.0f, 0.1f, 100.0f);
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
